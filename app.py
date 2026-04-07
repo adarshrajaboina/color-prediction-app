@@ -4,8 +4,7 @@ import numpy as np
 import joblib
 from sklearn.ensemble import RandomForestClassifier
 
-# Inp data ref
-inpudata = pd.read_excel("PaintInput.xls")
+
 
 st.set_page_config(
     page_title="Paint Color Prediction",
