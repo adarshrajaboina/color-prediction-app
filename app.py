@@ -196,7 +196,7 @@ elif page == "📈 Prediction":
 
     @st.cache_resource
     def load_files():
-        model = joblib.load("color_model.pkl")
+        model = joblib.load("color_model_compressed.pkl")
         scaler = joblib.load("color_scaler.pkl")
         columns = joblib.load("color_columns.pkl")
         return model, scaler, columns
